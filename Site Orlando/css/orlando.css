@@ -105,7 +105,7 @@ header #logotipo {
 	z-index: 3;
 }
 #banner h1.efeito {
-	color:red;
+	color: #5C2D90;
 	font-size:12em;
 }
 #menu {
@@ -161,15 +161,15 @@ header #logotipo {
 	width: 100%;
 	height: 728px;
 	position: relative;
-	background: url("../img/banner.jpg") no-repeat;
+	background: url("../img/stadium.webp") no-repeat;
 	background-position: 0px -100px;
 	top: -130px;
 	
 }
 #banner h1 {
 	transition:1s;
-	color: #5E2799;
-	top: 300px;
+	color: #fffb00;
+	top: 400px;
 	position: relative;
 	font-size: 92px;
 	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
@@ -182,6 +182,10 @@ header #logotipo {
 	color: #fffb00;
 	font-family: 'OpenSans';
 	font-weight: bold;
+}
+#banner .target {
+	background-color: rgba(94, 41, 154, .8);
+	width: 35%;
 }
 #news {
 	position: relative;
