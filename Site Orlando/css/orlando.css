@@ -135,7 +135,7 @@ header #logotipo {
 	width: 300px;
 }
 #menu li.search ::-webkit-input-placeholder {
-	color: #fff;	
+	color: #ffffff;	
 }
 #menu li.search button {
 	background: none;
@@ -149,7 +149,7 @@ header #logotipo {
 	color: rgba(255, 255, 255, .5);
 }
 #menu li a {
-	color: #FFF;
+	color: #fff;
 	font-size: 16px;
 	padding: 10px 25px;
 	font-weight: bold;
@@ -164,10 +164,11 @@ header #logotipo {
 	background: url("../img/banner.jpg") no-repeat;
 	background-position: 0px -100px;
 	top: -130px;
+	
 }
 #banner h1 {
 	transition:1s;
-	color: #fff;
+	color: #5E2799;
 	top: 300px;
 	position: relative;
 	font-size: 92px;
@@ -178,13 +179,13 @@ header #logotipo {
 #banner h1 small {
 	font-size: 32px;
 	display: block;
-	color: #FFF;
+	color: #fffb00;
 	font-family: 'OpenSans';
 	font-weight: bold;
 }
 #news {
 	position: relative;
-    top: -110px;
+    top: -60px;
 }
 #news h2 {
 	color:#5E2799;
@@ -269,7 +270,7 @@ header #logotipo {
     border-color: #5E299A;
 }
 #call-to-action .btn-amarelo {
-    color: #000;
+    color: #5E2799;
     background-color: #FDE192;
     border-color: #FDE192;
 }
@@ -390,7 +391,10 @@ footer .list-socials i {
 video {
 	width: 60%;
 }
-#btn-bars, #btn-search, 
+#btn-bars, #btn-search,
 #btn-news-prev, #btn-news-next {
 	display: none;
+}
+.page-up {
+	display: none!important;
 }

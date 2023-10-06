@@ -4,10 +4,11 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width:device-width, initial-scale=1">
+		<link rel="icon" href="/img/orlando-logo.png">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/orlando.css">
 		<link rel="stylesheet" href="css/orlando-mobile.css">
 
@@ -15,10 +16,25 @@
 	<body>
 
 		<header>
+			
+			<div id="menu-mobile-mask" class="visible-xs"></div>
 
+			<div id="menu-mobile" class="visible-xs">
+				
+				<ul class="list-unstyled">
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="#">Tickets</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Schedule</a></li>
+				</ul>
+
+				<div class="bar-close">
+					<button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
+				</div>
+
+			</div>
 			
-			
-			<div class="container container-logo">
+			<div class="container">
 				<img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
 			</div>
 
@@ -26,8 +42,10 @@
 				
 				<div class="container">
 
-				<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
-			  	<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
+					<input type="search" id="input-search-mobile" class="visible-xs" placeholder="search...">
+				
+					<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+					<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
 
 					<ul class="pull-right">
 						<li class="club-01"><a href="#"></a></li>
@@ -65,7 +83,7 @@
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="videos.html">Videos</a></li>
+							<li><a href="#">Videos</a></li>
 							<li><a href="#">Tickets</a></li>
 							<li><a href="#">News</a></li>
 							<li><a href="#">Schedule</a></li>
@@ -90,7 +108,7 @@
 			
 			<div id="banner">
 				
-				<h1>Orlando City<small>Orlando City Soccer Club</small></h1>
+				<h1>Orlando City<small>Soccer Club</small></h1>
 
 			</div>
 
@@ -99,66 +117,45 @@
 				<div class="row text-center">
 					<h2>Latest News</h2>
 					<hr>	
-				</div>	
-
+				</div>				
+				
 				<button type="button" id="btn-news-prev"><i class="fa fa-angle-left"></i></button>
 				<button type="button" id="btn-news-next"><i class="fa fa-angle-right"></i></button>
 
 				<div class="row thumbnails">
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
+							<img src="img/next.jpg" alt="Noticia">
+							<h3>Next Major League Soccer game: Nashville x Orlando City at Geodis Park</h3>
+							<time>October 05, 2023</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
+							<img src="img/last.jpg" alt="Noticia">
+							<h3>In the last game of Major League Soccer, Orlando City beat Monteréal 3-0 at home</h3>
+							<time>September 30, 2023</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
+							<img src="img/rafael1.jpg" alt="Noticia">
+							<h3>Orlando City acquires defender Rafael Santos, Brazilian played for Cruzeiro EC</h3>
+							<time>January 01, 2023</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
+							<img src="img/facundo.webp" alt="Noticia">
+							<h3>Uruguayan striker Facundo Torres has been the team's offensive highlight in 2023</h3>
+							<time>October 05, 2023</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
-							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-							<time>December 21, 2015</time>
+							<img src="img/ojeda.webp" alt="Noticia">
+							<h3>Argentine Martín Ojeda, hired in January, is the biggest waiter in the cast this year</h3>
+							<time>October 05, 2023</time>
 						</div>
 					</div>
 				</div>
@@ -170,13 +167,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<p>61348<small>Stadium Capacity</small></p>
+							<p>25.500<small>Stadium Capacity</small></p>
 						</div>
 						<div class="col-md-4">
-							<p>2010<small>Founded</small></p>
+							<p>2013<small>Founded</small></p>
 						</div>
 						<div class="col-md-4">
-							<p>7th<small>Eastern Conference</small></p>
+							<p>2nd<small>Eastern Conference</small></p>
 						</div>
 					</div>
 				</div>
@@ -270,16 +267,16 @@
 									</address>
 
 									<p class="hidden-xs"><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
-
-									<div class="row-fluid hidden-sm-up">
+									
+									<div class="row-fluid visible-xs">
 										<div class="col-xs-6">
-											<a href="" class="btn btn-footer"><i class="fa fa-map-marker"></i>Location</a>
+											<a href="#" class="btn btn-footer "><i class="fa fa-map-marker"></i>Location</a>
 										</div>
 										<div class="col-xs-6">
-											<a href="" class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
+											<a href="#" class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
 										</div>
 									</div>
-									
+
 									<ul class="list-unstyled list-socials">
 										<li>
 											<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -293,8 +290,8 @@
 										<li>
 											<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
 										</li>
-										<li>
-											<a href="#" target="_blank"><i class="fa fa-chevron-up"></i></a>
+										<li class="page-up">
+											<a href="#" id="page-up"><i class="fa fa-chevron-up"></i></a>
 										</li>
 									</ul>
 
